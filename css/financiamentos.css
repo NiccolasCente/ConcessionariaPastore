@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  .cookies-msg {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cookies-txt p {
+    margin: 0;
+  }
+  
+  .cookies-btn button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+
+  .section {
+    margin-bottom: 20px;
+    
+  }
+  
+  .section h2 {
+    color: #333;
+  }
+  
+  .section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  
+  .footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+  
+  
+  #contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #contact address {
+    margin: 0;
+  }
+  
+  #contact .btn2 {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  
+  .redes-social {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .redes-social a {
+    margin-right: 10px;
+    color: #888;
+    font-size: 24px;
+  }
+
+  .hero{
+    background-image: url(../imagens/dd97b0fbf74d706b33c7215476c1c755.webp);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    
+}
+
+.hero-content{
+    text-align: center;
+    color:white;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.hero-content p{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+   
+    border: 1px solid white;
+}
+
+.hero nav a{
+    background: rgba(0,0,0, 0.3);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background: rgba(0,0,0, 0.5);
+}

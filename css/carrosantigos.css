@@ -1,0 +1,463 @@
+body{
+  font-family: arial, sans-serif;
+  background: #ccc;
+  margin: 0; 
+  
+}
+
+.hero{
+  background-image: url(../imagens/dd97b0fbf74d706b33c7215476c1c755.webp);
+  height: 500px;
+  background-position: right center;
+  background-size: cover;
+  
+}
+
+.hero-content{
+  text-align: center;
+  color:white;
+  margin-top: 150px;
+}
+
+.hero-content h1{
+  text-transform: uppercase;
+  font-size: 46px;
+  text-shadow: 3px 3px 2px #333;
+}
+
+.hero-content p{
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.hero nav ul{
+  text-align: right;
+  margin: 20px 50px 0 0;
+}
+
+.hero nav li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+  border: 1px solid white;
+}
+
+.hero nav a{
+  background: rgba(0,0,0, 0.3);
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+  background: rgba(0,0,0, 0.5);
+}
+
+section {
+text-align: center;
+
+}
+
+section h2{
+font-size: 2em;
+color: #333;
+text-transform: uppercase;
+font-weight: bold;
+
+
+}
+
+.content-section {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-image: url(../imagens/dd97b0fbf74d706b33c7215476c1c755.webp);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right top;
+
+}
+
+.card {
+width: 28.28%;
+box-sizing: border-box;
+padding: 10px;
+text-align: center;
+height: 300px; 
+margin-bottom: 10em;
+
+}
+
+.card img {
+width: 100%;
+height: 100%;
+object-fit: cover; 
+border: 1px solid gray;
+}
+
+.card h3 {
+margin: 10px 0;
+
+}
+
+.card p {
+margin: 0;
+padding: 10px;
+background-color: #393535;
+color: white;
+text-align: left;
+border: 1px solid gray;
+
+}
+
+.div-text a{ 
+text-decoration: none;
+background: rgba(0,0,0, 0.3);
+display: inline;
+padding: 10px;
+color: white;
+text-transform: uppercase;
+font-size: 12px;
+letter-spacing: 2px;
+list-style: none;
+margin-left: 10px;
+border: 1px solid gray;
+
+}
+
+.div-text a:hover{
+  background: #2c272e;
+}
+
+.btn2{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: rgb(12, 204, 98);
+}
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #contact address {
+    margin: 0;
+  }
+  
+  
+  .redes-social {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .redes-social a {
+    margin-right: 10px;
+    color: #888;
+    font-size: 24px;
+  }
+
+
+  @media only screen and (max-width: 400px) {
+    .hero {
+      height: 400px;
+    }
+    
+    .hero-content {
+      margin-top: 100px;
+    }
+    
+    .hero-content h1 {
+      font-size: 26px;
+      
+    }
+    
+    .hero nav ul {
+      text-align: center;
+      
+      
+    }
+    
+    .hero nav li {
+      margin-left: 5px;
+      margin-top: 1em;
+    }
+    
+    .hero nav a {
+      padding: 5px;
+      font-size: 10px;
+    }
+
+    section h2{
+      font-size: 2em;
+      color: #333;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    
+    .card {
+      width: 100%;
+      height: auto;
+      padding: 1em;
+      
+    }
+    
+    .card p {
+      font-size: 10px;
+      margin-bottom: 1%;
+
+    }
+
+    .div-text a {
+      padding: 5px;
+      font-size: 10px;
+      margin-left: 5px;
+    }
+    
+    .btn2 {
+      padding: 5px 10px;
+      margin-top: 5px;
+    }
+    
+    #contact {
+      margin-top: 4em;
+      padding: 20px;
+    }
+    
+    #contact address {
+      margin: 0;
+    }
+    
+    .redes-social {
+      padding: 20px;
+    }
+    
+    .redes-social a {
+      margin-right: 10px;
+      font-size: 24px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 401px) and (max-width: 500px){
+    .hero {
+      height: 400px;
+    }
+    
+    .hero-content {
+      margin-top: 100px;
+    }
+    
+    .hero-content h1 {
+      font-size: 26px;
+      
+    }
+    
+    .hero nav ul {
+      text-align: center;
+      
+      
+    }
+    
+    .hero nav li {
+      margin-left: 5px;
+      margin-top: 1em;
+    }
+    
+    .hero nav a {
+      padding: 5px;
+      font-size: 10px;
+    }
+
+    
+    .card {
+      width: 100%;
+      height: auto;
+      padding: 1em;
+      
+    }
+    
+    .card p {
+      font-size: 10px;
+      margin-bottom: 1%;
+
+    }
+
+    .div-text a {
+      padding: 5px;
+      font-size: 10px;
+      margin-left: 5px;
+    }
+    
+    .btn2 {
+      padding: 5px 10px;
+      margin-top: 5px;
+    }
+    
+    #contact {
+      margin-top: 4em;
+      padding: 20px;
+    }
+    
+    #contact address {
+      margin: 0;
+    }
+    
+    .redes-social {
+      padding: 20px;
+    }
+    
+    .redes-social a {
+      margin-right: 10px;
+      font-size: 24px;
+    }
+  }
+  
+  @media only screen and (min-width: 701px) and (max-width: 800px) {
+    .hero {
+      height: 300px;
+    }
+    
+    .hero-content {
+      margin-top: 100px;
+    }
+    
+    .hero-content h1 {
+      font-size: 26px;
+    }
+    
+    .hero nav ul {
+      text-align: center;
+      margin: 20px 0;
+    }
+    
+    .hero nav li {
+      margin-left: 5px;
+    }
+    
+    .hero nav a {
+      padding: 5px;
+      font-size: 10px;
+    }
+    
+    .card {
+      width: 90%;
+      height: auto;
+      margin-bottom: 5em;
+    }
+    
+    .card p {
+      font-size: 10px;
+    }
+    
+    .div-text a {
+      padding: 5px;
+      font-size: 10px;
+      margin-left: 5px;
+    }
+    
+    .btn2 {
+      padding: 5px 10px;
+      margin-top: 5px;
+    }
+    
+    #contact {
+      margin-top: 2em;
+      padding: 20px;
+    }
+    
+    #contact address {
+      margin: 0;
+    }
+    
+    .redes-social {
+      padding: 20px;
+    }
+    
+    .redes-social a {
+      margin-right: 10px;
+      font-size: 24px;
+    }
+  }
+
+  @media only screen and (min-width: 801px) and (max-width: 1180px){
+     .hero {
+      height: 300px;
+    }
+    
+    .hero-content {
+      margin-top: 100px;
+    }
+    
+    .hero-content h1 {
+      font-size: 26px;
+    }
+    
+    .hero nav ul {
+      text-align: center;
+      margin: 20px 0;
+    }
+    
+    .hero nav li {
+      margin-left: 5px;
+    }
+    
+    .hero nav a {
+      padding: 5px;
+      font-size: 10px;
+    }
+    
+    .card {
+      width: 90%;
+      height: auto;
+      margin-bottom: 5em;
+    }
+    
+    .card p {
+      font-size: 10px;
+    }
+    
+    .div-text a {
+      padding: 5px;
+      font-size: 10px;
+      margin-left: 5px;
+    }
+    
+    .btn2 {
+      padding: 5px 10px;
+      margin-top: 5px;
+    }
+    
+    #contact {
+      margin-top: 2em;
+      padding: 20px;
+    }
+    
+    #contact address {
+      margin: 0;
+    }
+    
+    .redes-social {
+      padding: 20px;
+    }
+    
+    .redes-social a {
+      margin-right: 10px;
+      font-size: 24px;
+    }
+  }
+  

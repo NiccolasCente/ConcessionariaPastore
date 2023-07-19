@@ -1,0 +1,325 @@
+body{
+    font-family: arial, sans-serif;
+    background: #ccc;
+    margin: 0; 
+    background-image: url(../imagens/dd97b0fbf74d706b33c7215476c1c755.webp);
+    background-position: right center;
+    background-size: cover;
+}
+
+.hero{
+    background-image: url(../imagens/dd97b0fbf74d706b33c7215476c1c755.webp);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    
+}
+
+.hero-content{
+    text-align: center;
+    color:white;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.hero-content h2{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #d3d0d0;
+}
+
+.hero-content p{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+   
+    border: 1px solid white;
+}
+
+.hero nav a{
+    background: rgba(0,0,0, 0.3);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background: rgba(0,0,0, 0.5);
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+
+}
+
+.card{
+    width: 32%;
+    float: left;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-left: 1%;
+}
+
+    
+   
+
+.card img{
+    width: 100%;
+    display: block;
+    
+}
+
+.card p{
+    background-color: #393535;
+    color: white;
+    margin: 0;
+    padding: 15px;
+
+}
+
+
+#contact{
+    margin: 50px 0;
+
+}
+
+#contact address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    border: 2px solid black;
+
+}
+
+.maps iframe{
+    width: 100%;
+}
+
+
+.div-text a{ 
+    text-decoration: none;
+    background: rgba(0,0,0, 0.3);
+    display: inline;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    list-style: none;
+    margin-left: 10px;
+    border: 1px solid white;
+    
+    
+    
+}
+
+.div-text a:hover{
+    background: #2c272e;
+}
+
+.redes-social{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.redes-social a{
+    color: #2ecc71;
+    padding: 10px;
+    margin-top: 5px;
+   
+}
+
+.btn2{
+    border-radius: 4px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 1.6rem 1.6rem;
+    display: inline-block;
+    border: 1px solid black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: rgb(12, 204, 98);
+}
+
+
+
+
+@media screen and (max-width: 500px){
+    body {
+        font-family: arial, sans-serif;
+        background: #ccc;
+        margin: 0;
+        background-image: url(../imagens/dd97b0fbf74d706b33c7215476c1c755.webp);
+        background-position: right center;
+        background-size: cover;
+    }
+    
+    .hero {
+        background-image: url(../imagens/dd97b0fbf74d706b33c7215476c1c755.webp);
+        height: 500px;
+        background-position: right center;
+        background-size: cover;
+    }
+    
+    .hero-content {
+        text-align: center;
+        color: white;
+      
+    }
+    
+    .hero-content h1,
+    .hero-content h2 {
+        text-transform: uppercase;
+        font-size: 46px;
+        text-shadow: 3px 3px 2px #333;
+    }
+    
+    .hero-content p {
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    .hero nav ul {
+        text-align: center;
+       
+        
+    }
+    
+    .hero nav li {
+        margin-top: 1em;
+    }
+    
+    .hero nav a:hover {
+        background: rgba(0,0,0, 0.5);
+    }
+    
+    main {
+        width: 80%;
+        margin: auto;
+        max-width: 500px;
+    }
+    
+    .content-section {
+        background-color: white;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+    }
+    
+    .card {
+        width: 100%;
+        border: 2px solid black;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    
+    .card img {
+        width: 100%;
+        display: block;
+    }
+    
+    .card p {
+        background-color: #393535;
+        color: white;
+        margin: 0;
+        padding: 15px;
+    }
+    
+    #contact {
+        margin: 50px 0;
+    }
+    
+    #contact address {
+        color: #143f52;
+        text-transform: uppercase;
+        font-size: 26px;
+        font-style: normal;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .maps {
+        width: 100%;
+        height: 450px;
+        margin-top: 20px;
+        border: 2px solid black;
+    }
+    
+    .maps iframe {
+        width: 100%;
+    }
+    
+    
+    .redes-social {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .redes-social a {
+        color: #2ecc71;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    
+    .btn2 {
+        border-radius: 4px;
+        font-size: 1.4rem;
+        text-decoration: none;
+        padding: 1.6rem 1.6rem;
+        display: inline-block;
+        border: 1px solid black;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        background-color: #4CAF50;
+        color: white;
+    }
+    
+    .btn2:hover {
+        background-color: rgb(12, 204, 98);
+    }
+}
